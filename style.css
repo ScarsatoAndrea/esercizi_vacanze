@@ -1,0 +1,47 @@
+#titolo{
+    position: relative;
+    color: blue ;
+    text-shadow: 1px 1px 1px #5a5959;
+}
+
+#btnRandom{
+    position: absolute;
+    text-align: center;
+    width: 138px;
+    height: 30px;
+    margin-top: 35px;
+    background: linear-gradient(0.25turn, #4771be, #bfa3cf, #7d0c94);
+    border-radius: 10px;
+    border-color: #000000;
+    border-width: 1px;
+    box-shadow: 3px 3px 1px #272727;
+}
+
+#btnRandom:active{
+    position: relative;
+    top: +5px;
+}
+
+#btnRandom:hover{
+    position: absolute;
+    text-align: center;
+    width: 138px;
+    height: 30px;
+    margin-top: 35px;
+    background: linear-gradient(0.25turn, #305291, #bfa3cf, #50045f);
+    transition: 0.3s;
+    border-radius: 10px;
+    border-color: #000000;
+    border-width: 1px;
+}
+
+
+#txt{
+    position: absolute;
+    box-shadow: 1px 1px 1px #272727;
+}
+
+#list{
+    position: absolute;
+    margin-top: 75px;
+}
